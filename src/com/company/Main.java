@@ -25,6 +25,10 @@ public class Main {
         // Array list
         // Array lists have a fix datatype as well
         ArrayList<Dogs>dogsArrayList = new ArrayList<Dogs>();
+        System.out.println("\nTesting array list right here");
+        for (Dogs e : dogsArrayList) {
+            System.out.println(e);
+        }
 
         // Add array we made to array list.
         dogsArrayList.addAll(Arrays.asList(dogArr));
